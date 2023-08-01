@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/viewlist": {
+      "name": "/viewlist",
+      "lambdaFunction": "viewlist",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,323 @@
+.row{
+  position: relative;
+  width: 90%;
+  left: 4vw;
+  top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 100px 10px;
+}
+
+.hook-container {
+  position: relative;
+
+}
+
+.landing-hook {
+  /* Your ultimate tool for saving and sharing your favorite locations */
+
+  position: relative;
+  width: 75%;
+  text-align: center;
+
+
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+
+  /* or 92% */
+
+  /* gray/900 */
+  color: #18181b;
+}
+
+.hook-description {
+  /* Stay organized, never forget your favorite spots by creating your own personalized map of memories with BucketLyst. */
+
+  position: relative;
+  width: 75%;
+  text-align: center;
+
+
+
+  font-family: "Inter";
+  font-style: normal;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+.hook-image {
+  /* Image */
+  position: relative;
+  width: 100%;
+
+
+}
+
+.start-button {
+  /* Button name */
+  position: relative;
+  left: 23%;
+
+
+  width: 30%;
+  height: 30px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  align-items: center;
+  text-align: center;
+
+  /* base/white */
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  background-color: #18181b;
+  border-radius: 5px;
+}
+
+/* second block */
+.hook-container-2 {
+  /* Keep track of places you’ve been or ones you want to go */
+
+  position: relative;
+  width: 640px;
+  height: 198px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  /* or 138% */
+
+  color: #000000;
+}
+
+.small-text-above-2 {
+  /* Everything in one convenient place */
+
+  position: relative;
+  width: 100%;
+
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: left;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+.second-large-text {
+  /* Keep track of places you’ve been or ones you want to go */
+
+  position: relative;
+  width: 100%;
+
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  /* or 138% */
+
+  color: #000000;
+  text-align: left;
+}
+
+.hook-image-2 {
+  /* Image */
+  /* Screenshot 2023-05-01 at 14.08 1 */
+
+
+  border-radius: 10px;
+  width: 610px;
+  height: 538px;
+
+}
+
+.small-text-below-2 {
+  /* You can easily pin your favorite spots on your personal map and create custom lists, so you'll never forget the restaurant you discovered or the new park you visited. Whether you're tracking the places you've been, the ones you want to go, or the ones your loved ones recommended, Bucketlys has got you covered! */
+
+  position: relative;
+  width: 100%;
+
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+/* third block */
+.hook-container-3 {
+  position: relative;
+
+}
+
+.third-large-text {
+  /* Add to your list, search and filter. Stay organized */
+
+  position: relative;
+
+  width: 120%;
+
+  left: -10%;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  /* or 138% */
+
+  color: #000000;
+}
+
+.small-text-above-3 {
+  /* No more scrumbling around */
+
+  position: relative;
+
+  width: 70%;
+
+  left: -10%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  text-align:left;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+.hook-image-3 {
+  position: relative;
+
+  width: 100%;
+}
+
+.small-text-below-3 {
+  position: relative;
+  /* Stuck on where to go? No worries! Bucketlys has you covered with its built-in filter and search function. Quickly sort through your favorite places to find the perfect spot for your mood, whether you're looking for a cozy coffee shop or a lively bar. With categories like "food," "entertainment," and "outdoor activities," and filters like "open now" and "places near you," Bucketlys makes it easy to discover new places and revisit your old favorites. With Bucketlys, your perfect spot is just a few clicks away! */
+
+  width: 100%;
+
+  left: -10%;
+  text-align: left;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+/* fourth block */
+.hook-container-4 {
+  position: relative;
+
+}
+
+.fourth-large-text {
+  /* Add to your list, search and filter. Stay organized */
+
+  position: relative;
+
+
+  width: 100%;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  /* or 138% */
+
+  color: #000000;
+}
+
+.small-text-above-4 {
+  /* No more scrumbling around */
+
+  position: relative;
+
+  width: 100%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+.hook-image-4 {
+  position: relative;
+
+  max-width: 110%;
+  left: -10%;
+}
+
+.small-text-below-4 {
+  position: relative;
+  /* Stuck on where to go? No worries! Bucketlys has you covered with its built-in filter and search function. Quickly sort through your favorite places to find the perfect spot for your mood, whether you're looking for a cozy coffee shop or a lively bar. With categories like "food," "entertainment," and "outdoor activities," and filters like "open now" and "places near you," Bucketlys makes it easy to discover new places and revisit your old favorites. With Bucketlys, your perfect spot is just a few clicks away! */
+
+  width:  100%;
+
+
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+  padding-bottom: 300px;
+}
+
+.col-md-6{
+  width: 40%;
+  align-items: center;
+  justify-self: center;
+  margin: auto;
+}

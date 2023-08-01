@@ -1,0 +1,462 @@
+{
+  "api": {
+    "block": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "block"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "follow": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "follow"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "followerList": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "followerList"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "home": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "home"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "location": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "location"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "makelist": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "makelist"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "notification": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "notification"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "request": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "request"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "savelist": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "savelist"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "search": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "search"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "userProfile": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "userProfile"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "viewlist": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "viewlist"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "bucketlystefa12120": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [
+          "FACEBOOK",
+          "GOOGLE"
+        ],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "block": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "follow": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "followerList": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "home": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "location": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "makelist": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "notification": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "request": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "savelist": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "search": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "userProfile": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "viewlist": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_block_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "block"
+        }
+      ]
+    },
+    "AMPLIFY_function_block_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "block"
+        }
+      ]
+    },
+    "AMPLIFY_function_follow_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "follow"
+        }
+      ]
+    },
+    "AMPLIFY_function_follow_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "follow"
+        }
+      ]
+    },
+    "AMPLIFY_function_followerList_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "followerList"
+        }
+      ]
+    },
+    "AMPLIFY_function_followerList_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "followerList"
+        }
+      ]
+    },
+    "AMPLIFY_function_home_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "home"
+        }
+      ]
+    },
+    "AMPLIFY_function_home_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "home"
+        }
+      ]
+    },
+    "AMPLIFY_function_location_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "location"
+        }
+      ]
+    },
+    "AMPLIFY_function_location_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "location"
+        }
+      ]
+    },
+    "AMPLIFY_function_makelist_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "makelist"
+        }
+      ]
+    },
+    "AMPLIFY_function_makelist_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "makelist"
+        }
+      ]
+    },
+    "AMPLIFY_function_notification_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "notification"
+        }
+      ]
+    },
+    "AMPLIFY_function_notification_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "notification"
+        }
+      ]
+    },
+    "AMPLIFY_function_request_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "request"
+        }
+      ]
+    },
+    "AMPLIFY_function_request_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "request"
+        }
+      ]
+    },
+    "AMPLIFY_function_savelist_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "savelist"
+        }
+      ]
+    },
+    "AMPLIFY_function_savelist_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "savelist"
+        }
+      ]
+    },
+    "AMPLIFY_function_search_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "search"
+        }
+      ]
+    },
+    "AMPLIFY_function_search_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "search"
+        }
+      ]
+    },
+    "AMPLIFY_function_userProfile_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "userProfile"
+        }
+      ]
+    },
+    "AMPLIFY_function_userProfile_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "userProfile"
+        }
+      ]
+    },
+    "AMPLIFY_function_viewlist_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "viewlist"
+        }
+      ]
+    },
+    "AMPLIFY_function_viewlist_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "viewlist"
+        }
+      ]
+    }
+  }
+}

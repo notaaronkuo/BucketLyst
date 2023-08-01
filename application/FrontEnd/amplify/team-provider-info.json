@@ -1,0 +1,113 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bucketlyst-dev-175714-authRole",
+      "UnauthRoleArn": "arn:aws:iam::325642715139:role/amplify-bucketlyst-dev-175714-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::325642715139:role/amplify-bucketlyst-dev-175714-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+      "UnauthRoleName": "amplify-bucketlyst-dev-175714-unauthRole",
+      "StackName": "amplify-bucketlyst-dev-175714",
+      "StackId": "arn:aws:cloudformation:us-east-1:325642715139:stack/amplify-bucketlyst-dev-175714/178b3c40-fa97-11ed-9909-0afa86b2b25d",
+      "AmplifyAppId": "d38dj1lszxpibn"
+    },
+    "categories": {
+      "function": {
+        "block": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/block-38792b483447454b6549-build.zip"
+        },
+        "follow": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/follow-596f364f573371487058-build.zip"
+        },
+        "followerList": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/followerList-786c3131672f30524469-build.zip"
+        },
+        "home": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/home-564b5a63716a436d3068-build.zip"
+        },
+        "location": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/location-48626533534d5a322b6f-build.zip"
+        },
+        "makelist": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/makelist-34734e336e714c756e52-build.zip"
+        },
+        "notification": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/notification-336b48374f52774f5671-build.zip"
+        },
+        "userProfile": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/userProfile-505230746c4241524231-build.zip"
+        },
+        "request": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/request-4c30697230325a525150-build.zip"
+        },
+        "search": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/search-5534424c5737526f3061-build.zip"
+        },
+        "viewlist": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/viewlist-7142452b6f4a37703958-build.zip"
+        },
+        "savelist": {
+          "deploymentBucketName": "amplify-bucketlyst-dev-175714-deployment",
+          "s3Key": "amplify-builds/savelist-6f7942656c4d4e776a61-build.zip"
+        }
+      },
+      "auth": {
+        "bucketlystefa12120": {}
+      },
+      "api": {
+        "block": {},
+        "follow": {},
+        "followerList": {},
+        "home": {},
+        "location": {},
+        "makelist": {},
+        "notification": {},
+        "userProfile": {},
+        "request": {},
+        "search": {},
+        "viewlist": {},
+        "savelist": {}
+      }
+    }
+  },
+  "kenny": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bucketlyst-kenny-171934-authRole",
+      "UnauthRoleArn": "arn:aws:iam::325642715139:role/amplify-bucketlyst-kenny-171934-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::325642715139:role/amplify-bucketlyst-kenny-171934-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bucketlyst-kenny-171934-deployment",
+      "UnauthRoleName": "amplify-bucketlyst-kenny-171934-unauthRole",
+      "StackName": "amplify-bucketlyst-kenny-171934",
+      "StackId": "arn:aws:cloudformation:us-east-1:325642715139:stack/amplify-bucketlyst-kenny-171934/065a77f0-e3c8-11ed-834e-124cca7dd461",
+      "AmplifyAppId": "d38dj1lszxpibn"
+    },
+    "categories": {
+      "function": {
+        "tempgetnotification": {
+          "deploymentBucketName": "amplify-bucketlyst-kenny-171934-deployment",
+          "s3Key": "amplify-builds/tempgetnotification-393264546f6c6f73596b-build.zip"
+        },
+        "templocation": {
+          "deploymentBucketName": "amplify-bucketlyst-kenny-171934-deployment",
+          "s3Key": "amplify-builds/templocation-566359306339694c3170-build.zip"
+        },
+        "tempsavelist": {
+          "deploymentBucketName": "amplify-bucketlyst-kenny-171934-deployment",
+          "s3Key": "amplify-builds/tempsavelist-6a4c444d4c4c43486565-build.zip"
+        }
+      }
+    }
+  }
+}

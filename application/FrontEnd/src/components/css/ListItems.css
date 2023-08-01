@@ -1,0 +1,253 @@
+/*Edit as you like*/
+
+.list-holder {
+  position: relative;
+  top: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+
+  gap: 20px;
+  left: 8px;
+}
+
+.list-item {
+  position: relative;
+
+  min-height: 40vh;
+  border-radius: 3px;
+}
+
+/*Edit as you like*/
+
+.card {
+  width: 200px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-image {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  padding: 5px;
+}
+
+.card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bookmark-icon {
+  width: 64px;
+  height: 44px;
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+}
+
+.bookmark-background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.bookmark-logo {
+  font-size: 24px;
+  color: white;
+}
+
+.bookmark-count {
+  font-size: 16px;
+  color: white;
+}
+
+.card-body {
+  padding: 10px;
+  height: 40%;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 0;
+  /* Name */
+
+  width: 200px;
+  height: 25px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  /* Gray/900 */
+  color: #101828;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.card-description {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  /* Role */
+
+  width: 200px;
+  height: 10px;
+
+  /* Text lg/Normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  /* Primary/700 */
+  color: #6941c6;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.card-more-description {
+  font-size: 0.75rem;
+
+  /* Supporting text */
+
+  width: 190px;
+  height: 45px;
+
+  /* Text md/Normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Gray/500 */
+  color: #667085;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+.footer-text {
+  font-size: 0.8rem;
+  color: rgb(4, 4, 4);
+  /* Supporting text */
+
+  height: 24px;
+
+  /* Text md/Normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: right;
+
+  /* Gray/500 */
+  color: #667085;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.follow2-button {
+  position: relative;
+  align-items: center;
+  padding: 2px;
+  gap: 10px;
+  border: none;
+
+  width: 30%;
+  height: 50%;
+
+  background: #ececec;
+  border-radius: 4px;
+  z-index: 5;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+
+  color: #898989;
+}
+.follow2-button:hover {
+  background: #c9c9c9;
+  color: #101828;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.user-card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 180px;
+}
+.card-title-user {
+  font-size: 1rem;
+  margin: 0;
+  /* Name */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  /* Gray/900 */
+  color: #101828;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.error-alert {
+  position: relative;
+  bottom: 1px;
+}
+
+.unavailable{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  height: 30vh;
+}

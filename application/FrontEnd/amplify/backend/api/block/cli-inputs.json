@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/block": {
+      "name": "/block",
+      "lambdaFunction": "block",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

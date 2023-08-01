@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/follow": {
+      "name": "/follow",
+      "lambdaFunction": "follow",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

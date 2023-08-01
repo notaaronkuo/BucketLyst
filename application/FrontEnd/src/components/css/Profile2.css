@@ -1,0 +1,327 @@
+.profile-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+  width: 100%;
+}
+
+.profile-middle {
+  position: relative;
+  width: 80%;
+  top: 3vh;
+  grid-area: profile-middle;
+}
+
+.profile-side {
+  width: 10%;
+  grid-area: profile-side;
+}
+
+.ph-l {
+  width: 50%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.ph-c1 {
+  width: 35%;
+}
+
+.ph-img {
+  min-width: 192px;
+  height: 100%;
+  position: relative;
+  left: 30%;
+  top: 30%;
+}
+@media (max-width: 1200px) {
+  .ph-img {
+    display: none;
+  }
+}
+.ph-c2 {
+  width: 70%;
+  position: relative;
+  top: 20%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.ph-c2r1 {
+  width: 100%;
+  height: 8vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ph-c2r2 {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+}
+.User-username {
+  position: relative;
+  height: 8vh;
+}
+.User-profile-description {
+  position: relative;
+  left: 3vw;
+  width: 20vw;
+}
+.ph-c2r1 h2 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 66px;
+
+  margin: 0;
+}
+
+.ph-button {
+  position: relative;
+  height: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 2% 5%;
+  border: none;
+  background-color: #e1e1e1;
+  display: flex;
+  flex-direction: row;
+  color: rgb(166, 166, 166);
+  align-items: center;
+  justify-self: center;
+
+  align-self: center;
+}
+.ph-button:hover {
+  background-color: #c3c3c3;
+  color: #ebebeb;
+}
+
+.ph-r {
+  width: 50%;
+  position: relative;
+
+  flex-direction: row;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  justify-content: space-evenly;
+}
+.ph-follow {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+}
+.ph-r h4:hover,
+.ph-r h1:hover {
+  background-color: #dbdbdb;
+  transition: 0.5s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ph-r h4 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.ph-c2r2 p {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26px;
+  padding-left: 5%;
+
+  color: #52525b;
+}
+
+.your-profile-description {
+  position: relative;
+  width: 100%;
+  left: 30px;
+  font-size: 24px;
+}
+.User-username {
+  font-size: 50px;
+  position: relative;
+  left: 4vw;
+  width: 100%;
+}
+.profile-middle-spacer {
+  height: 10vh;
+}
+.profile-header {
+  height: 20vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile-listholder {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 1500px) {
+  .ph-img {
+    display: none;
+  }
+
+  .ph-follow {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1000px) {
+  .profile-container {
+    bottom: 40px;
+  }
+  .profile-middle {
+    top: 20vh;
+  }
+  .profile-header {
+    flex-direction: column;
+    width: 100%;
+  }
+  .ph-l {
+    width: 100%;
+  }
+
+  .ph-r {
+    width: 100%;
+  }
+  .ph-c1 {
+    width: 0%;
+  }
+  .ph-c2r1 {
+    height: 4vh;
+  }
+  .User-profile-description {
+    width: 300px;
+    position: relative;
+    font-size: 12px;
+  }
+  .User-username {
+    position: relative;
+    font-size: 20px;
+    left: 40px;
+    bottom: 10px;
+    width: 100%;
+  }
+
+  .profile-middle-spacer {
+    height: 50px;
+  }
+}
+
+.p-user-list-container {
+  overflow-y: scroll;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.p-user-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.p-user-item-l {
+  display: flex;
+  flex-direction: row;
+}
+.p-user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.p-user-name {
+  margin-right: 10px;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.p-user-button {
+  position: relative;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s ease;
+  background-color: rgba(60, 60, 67, 0);
+}
+.p-user-button:hover {
+  box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.p-user-button h4 {
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 22px;
+  /* identical to box height, or 129% */
+
+  text-align: center;
+  letter-spacing: -0.408px;
+
+  /* Label Color/Light/Secondary */
+
+  color: rgba(60, 60, 67, 0.6);
+  margin: 0;
+}
+
+.follow-contain {
+  overflow-y: scroll;
+  height: fit-content;
+  max-height: 50vh;
+  padding-right: 10%;
+}
+
+.floating-window-add {
+  top: 5%;
+  position: relative;
+  width: 30%;
+  max-width: fit-content;
+
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}

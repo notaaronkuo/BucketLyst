@@ -1,0 +1,133 @@
+/*For Kenny's part, addn to the css, try not to change pre-existing values*/
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #0e0e0e;
+    z-index: 99999;
+    height: fit-content;
+
+    bottom: -20%;
+    
+  }
+
+
+  .features h1,
+  .company h1,
+  .bucketlyst h1 {
+    color: #FFFFFF;
+    font-size: bold;
+  }
+  
+  .f-top{
+    width: 100%;
+    height: 60%;
+    background-color: #18181B;
+    border-bottom: 2px solid rgba(255,255,255,.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .f-top .title{
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+
+  .ftop .logoimage{
+    overflow: hidden;
+  }
+
+  
+  .button1{
+    position: relative;
+    padding: 1vh;
+    top: -10px;
+    border-radius: 10px;
+    width: 7vw;
+  }
+
+  .f-middle{
+    width: 100%;
+    height: fit-content;
+    background-color: #18181B;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .f-middle .bucketlyst{
+    position: relative;
+    left: 5%;
+  }
+
+  .f-middle .features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2%;
+    position: relative;
+    left: 60%;
+  }
+
+  .f-middle .features .featureslist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -1.5vh;
+  }
+
+  .f-middle .company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 62%;
+  }
+
+  .f-middle .company .companylist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -1.5vh;
+  }
+
+  .footer-small-links{
+    color: #FFFFFF;
+  }
+  
+  .f-bottom{
+    width: 100%;
+    height: 10%;
+    background-color:#4A4949;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .f-bottom .policies{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 1vw;
+    color:#FFFFFF;
+  }
+
+  .f-bottom .copyright{
+    color: #FFFFFF;
+    position: relative;
+    left: 2%;
+  }

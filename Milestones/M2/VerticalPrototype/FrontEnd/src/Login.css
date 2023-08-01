@@ -1,0 +1,236 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+  }
+  
+  .login-form label {
+    margin-bottom: 10px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    padding: 10px 20px;
+    background-color: #f00;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #d00;
+  }
+  
+  .photoLogin {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  /*THIS IS THE NEW STUFF*/
+
+  /*LOGIN PAGE START*/
+
+    /*Login Input Fields*/
+.loginValidation {
+    margin-bottom: 1px;
+    padding-bottom: 2px;
+    position: relative;
+    width: 100%;
+}
+
+    .loginValidation label {
+        transition: .4s ease-out;
+        display: flex;
+        margin-bottom: 3px;
+    }
+
+    .loginValidation input {
+        border: 2px solid #f0f0f0;
+        border-radius: 5px;
+        font-family: inherit;
+        font-size: 15px;
+        padding: 5px;
+        width: 100%;
+        border: 2px solid rgba(61, 60, 80, 0.2);
+    }
+
+        .loginValidation input:focus {
+            outline: 0;
+            border-radius: 4px;
+            border: 3px solid rgb(47, 95, 14);
+        }
+
+    .loginValidation.success input {
+        border-color: #2bdd77;
+    }
+
+    .loginValidation.error input {
+        border-color: #ef4331;
+    }
+
+    .loginValidation small {
+        color: #ef4331;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+    }
+
+    .loginValidation.error small {
+        visibility: visible;
+    }
+
+.form button {
+    background-color: #8e44ad;
+    border: 2px solid #8e44ad;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/*Login Spacer*/
+.login-area {
+    display: flex;
+    padding: 18px 18px;
+    height: 90vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Login Form*/
+.login-form {
+    position: relative;
+    max-width: 430px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 80px 60px 40px;
+    background: rgba(246, 248, 252, 0.7);
+    box-shadow: 0 15px 25px rgba(96, 102, 129, 0.5);
+}
+    /*Login Image*/
+    .login-form img {
+        position: absolute;
+        top: 20px;
+        left: calc(50% - 121px);
+        width: 250px;
+    }
+
+    .login-form h2 {
+        margin-top: 9rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        letter-spacing: 1px;
+        color:hsl(209, 61%, 16%);
+    }
+
+/*Login - Signup text*/
+.text-signup {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .text-signup a {
+        text-decoration: none;
+        color: (209, 61%, 16%);
+    }
+
+login-form .text-signup a:hover {
+    text-decoration: underline;
+}
+
+/*Login Password Forget Window*/
+#modal {
+    top: 0;
+    left: 0;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+    #modal:not(:target) {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+.membership-link{
+    color: hsl(209, 61%, 16%);
+}    
+.pass a {
+    color: (209, 61%, 16%);
+    font-size: 15px;
+}
+
+    .pass a:hover {
+        color: #E0EDC2;
+    }
+
+.password-window {
+    background: hsl(209, 24%, 25%);
+    position: relative;
+    border-radius: 12px;
+    padding: 4em 2em;
+}
+
+    .password-window a:hover {
+        color: #E0EDC2;
+    }
+
+.password-window-close {
+    position: absolute;
+    right: 9px;
+    text-decoration: none;
+    top: 9px;
+    font-size: 28px;
+    color: white;
+}
+
+    .password-window-close :hover {
+        color: #E0EDC2;
+    }
+
+/*Login shop text*/
+.shop-link-text {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .shop-link-text a {
+        text-decoration: none;
+        color: hsl(209, 61%, 16%);
+    }
+
+/*LOGIN PAGE END*/
+
+/*
+yea sure i can help with some milestone 2 stuff, but it depends on what aspect of it is
+*/

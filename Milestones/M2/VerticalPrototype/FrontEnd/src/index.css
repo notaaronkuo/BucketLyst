@@ -1,0 +1,173 @@
+/*  File: index.css
+    Author: Arielle Riray
+    Date: 3/2/2023
+    Description: Style sheet for the site, uses variables to keep colors consistent
+*/
+
+:root {
+  --clr-black: #222;
+  --transition: all 0.25s linear;
+  --spacing: 0.15rem;
+  --radius: 0.5rem;
+
+  --grey-clr: hsl(210, 22%, 49%);
+  --blue-clr: #7193ea;
+  --white-clr: #fff;
+  --clr-grey-3: hsl(210, 38%, 95%);
+  --clr-grey-1: hsl(209, 61%, 16%);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Roboto;
+  background: var(--clr-grey-3);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: var(--grey-clr);
+}
+
+h1,h2,h3,h4 {
+  letter-spacing: 0.1rem;
+  line-height: 1.15;
+  margin-bottom: 0.70rem;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.65rem;
+}
+h3 {
+  font-size: 1.85rem;
+}
+h4 {
+  font-size: 1rem;
+}
+body {
+  font-size: 1rem;
+}
+h1,h2,h3,h4 {
+  line-height: 1;
+}
+.section {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.OurTeam {
+  padding: 5rem 0;
+}
+.name {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: var(--blue-clr);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-filter {
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 0.6rem;
+  letter-spacing: 1.1px;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--blue-clr);
+  cursor: pointer;
+  border-color: transparent;
+  transition: var(--transition);
+  padding: 0.2rem 0.95rem;
+
+}
+.button-filter:hover {
+  color: var(--white-clr);
+  background: var(--blue-clr);
+}
+
+.button-holder {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px dotted var(--grey-clr);
+}
+
+.section-center {
+  height: 42vw;
+  width: 95vw;
+  display: grid;
+  margin: 0 auto;
+  max-width: 1170px;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+
+.photo {
+  object-fit:fill;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+}
+
+.member-section {
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  max-width: 40rem;
+  padding: 10px;
+}
+
+.item-info header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted var(--grey-clr);
+}
+
+.item-info h4 {
+  padding-top: 2.5rem;
+}
+
+.item-info h3 {
+  padding-top: 2.5rem;
+}
+
+.member-description {
+  margin-bottom: 0;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem
+}
+
+.role {
+  color: var(--blue-clr);
+}
+
+.layout{
+  display: flex;
+  flex-direction: row;
+}

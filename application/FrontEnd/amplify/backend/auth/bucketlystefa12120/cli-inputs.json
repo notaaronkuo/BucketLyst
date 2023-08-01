@@ -1,0 +1,72 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "bucketlystefa12120_identitypool_efa12120",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "bucketefa12120",
+    "userPoolName": "bucketlystefa12120_userpool_efa12120",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "<!DOCTYPE html>\n<html>\n<body>\n\nThank you for creating an account on BucketLyst! We're thrilled to have you as a member of our community.<br><br>\n\nTo complete your account creation, please use the following verification code:<br><br>\nVerification code: {####}<br><br>\nYou can enter this code directly into the <a href = \"https://combined.d38dj1lszxpibn.amplifyapp.com/\">BucketLyst</a> app to verify your account. If you have any trouble with this process, please don't hesitate to contact us at customersupport@bucketlyst.com. We're always here to help.<br><br>\nThank you again for joining BucketLyst! We look forward to serving you.<br><br>\nBest regards,<br>\nBucketLyst Customer Support Team\n</body>\n</html>",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [
+      "Requires Lowercase",
+      "Requires Numbers",
+      "Requires Symbols",
+      "Requires Uppercase"
+    ],
+    "requiredAttributes": [
+      "email"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [],
+    "userpoolClientReadAttributes": [],
+    "userpoolClientLambdaRole": "bucketefa12120_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "efa12120",
+    "resourceName": "bucketlystefa12120",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "manual",
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true,
+    "authRoleArn": {
+      "Fn::GetAtt": [
+        "AuthRole",
+        "Arn"
+      ]
+    },
+    "unauthRoleArn": {
+      "Fn::GetAtt": [
+        "UnauthRole",
+        "Arn"
+      ]
+    },
+    "breakCircularDependency": true,
+    "dependsOn": [],
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "thirdPartyAuth": false,
+    "authProviders": [],
+    "hostedUI": true,
+    "hostedUIDomainName": "c5dzrrguk18r",
+    "authProvidersUserPool": [
+      "Facebook",
+      "Google"
+    ],
+    "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}},{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://master.d38dj1lszxpibn.amplifyapp.com/\"],\"LogoutURLs\":[\"https://master.d38dj1lszxpibn.amplifyapp.com/\"]}"
+  }
+}

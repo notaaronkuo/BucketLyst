@@ -1,0 +1,143 @@
+/*CSS for tommy to use for import pages*/
+/***** SUCCESS CONTAINER *****/
+.import-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vh;
+  background-color: #f1f1f1; /* Light grey background */
+}
+
+.import-card {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40vw;
+  height: fit-content;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  position: relative; /* Required for absolute positioning of success text */
+}
+
+.import-success {
+
+
+  text-align: center;
+  font-family: "plus jakarta sans";
+  font-weight: bolder;
+  font-size: 48px;
+  color: #219653;
+}
+
+.import-overlay {
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black background */
+}
+
+.import-image {
+  position: relative;
+
+  width: 176px;
+  height: 176px;
+  display: block;
+  margin: 20px auto; /* Center the image horizontally and add some margin */
+}
+
+.import-description {
+  position: relative;
+ 
+  left: 0;
+  right: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-family: "plus jakarta sans";
+  font-weight: bolder;
+  font-size: 20px;
+  color: #000000;
+}
+
+.import-button {
+  position: relative;
+  top: 171px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: #27ae60;
+  display: block;
+  width: 161px;
+  height: 51px;
+  margin: 20px auto;
+}
+
+/***** FAILURE CONTAINER *****/
+
+.import-window {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(201, 201, 201);
+}
+
+.import-failure {
+
+  text-align: center;
+  font-family: "plus jakarta sans";
+  font-weight: bolder;
+  font-size: 48px;
+  color: #eb5757;
+}
+
+.import-image-failure {
+  position: relative;
+
+  width: 176px;
+  height: 176px;
+  display: block;
+  margin: 20px auto; /* Center the image horizontally and add some margin */
+}
+
+.import-description-failure {
+  position: relative;
+
+  left: 0;
+  right: 0;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  font-family: "plus jakarta sans";
+  font-weight: bolder;
+  font-size: 16px;
+  color: #000000;
+}
+
+.import-button-failure {
+  position: relative;
+
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: #eb5757;
+  display: block;
+  width: 161px;
+  height: 51px;
+  margin: 20px auto;
+}
+
+.import-button-failure:hover{
+  background-color: #ab4444;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.import-button:hover{
+  background-color: #1d5836;
+  transition: 0.5s;
+  cursor: pointer;
+
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/locationlist": {
+      "name": "/locationlist",
+      "lambdaFunction": "searchLocationList",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

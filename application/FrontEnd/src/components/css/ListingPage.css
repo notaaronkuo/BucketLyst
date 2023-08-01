@@ -1,0 +1,882 @@
+/*Ari's part, try not ot edit this section */
+
+.task-assign {
+  top: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.task-bholder {
+}
+.tasks-buttons {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.tasks-buttons:hover {
+  background-color: #7e7e7e;
+  transition: 0.2s;
+}
+
+.tasks-buttons-active {
+  background-color: rgb(173, 173, 173);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/*----------------------------------DIVIDER----------------------------------*/
+
+.each-list-listing-holder {
+  grid-area: lh;
+}
+.each-list-header {
+  grid-area: h;
+}
+.each-list-map-holder {
+  grid-area: mh;
+}
+
+.each-list-container {
+  grid-template-columns: 0.05fr 4.5fr 6fr;
+  /* grid-template-columns: 1fr minmax(auto, 50%);*/
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  position: relative;
+  width: 100%;
+  margin-top: 2%;
+  max-height: 87vh;
+
+  grid-template-areas:
+    ". h mh"
+    ". h mh"
+    ". lh mh"
+    ". lh mh"
+    ". lh mh"
+    ". lh mh"
+    ". lh mh";
+}
+
+.each-list-listing-holder {
+  display: block;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  min-height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.each-list-listing-holder2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.elh-r1 {
+  grid-area: r1;
+}
+.elh-r2 {
+  grid-area: r2;
+}
+.elh-r3 {
+  grid-area: r3;
+}
+.elh-r4 {
+  grid-area: r4;
+}
+.elh-r5 {
+  grid-area: r5;
+}
+.elh-c1 {
+  grid-area: c1;
+}
+.elh-c2 {
+  grid-area: c2;
+}
+.elh-e {
+  grid-area: e;
+}
+
+.each-list-header {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+
+  width: 95%;
+
+  grid-template-areas:
+    "r1 ."
+    "r2 c1"
+    "r2 c1"
+    "r3 e"
+    "r4 e"
+    "r5 c2";
+  height: 27vh;
+  min-height: 185px;
+}
+
+.elh-r1 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.elh-r2 {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0);
+  z-index: 5;
+}
+.elh-r2-text {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  color: #18181b;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 3rem;
+  line-height: 70%;
+  background-color: white;
+}
+
+.elh-r3 {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+}
+
+.elh-link {
+  background: none;
+  border: none;
+  color: #6941c6;
+  text-decoration: none;
+  padding: 0;
+  font: inherit;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.15vw;
+  z-index: 2;
+}
+
+.elh-link :hover {
+  text-decoration: none;
+}
+.elh-r4 {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-self: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.elh-visible {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.elh-visible-text {
+  color: gray;
+  font-weight: 600;
+}
+.elh-r4-spacer {
+  width: 80%;
+}
+
+.elh-r5 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+
+.elh-search {
+  
+  justify-self: center;
+  align-items: center;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px 41px 7px 8px;
+  gap: 6px;
+  border: none;
+
+  background: rgba(118, 118, 128, 0.12);
+  border-radius: 10px;
+}
+
+.elh-r5 input[type="text"] {
+  position: relative;
+  display: flex;
+  height: 60%;
+  margin-bottom: 0;
+  border: none;
+
+  width: 80%;
+  background-color: #eaeaea;
+}
+.elh-c1 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-self: center;
+  align-items: center;
+}
+.elh-c2 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-self: center;
+  align-items: center;
+}
+
+.elh-button {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-self: center;
+  align-items: center;
+  border: none;
+
+  background: #eeeeef;
+  border-radius: 5px;
+}
+.elh-button:hover{
+  background: #c3c3c3;
+  cursor: pointer;
+}
+.elh-button-text {
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 22px;
+  justify-content: left;
+  align-items: center;
+  font-size: 1vw;
+
+  /* identical to box height, or 129% */
+
+  letter-spacing: -0.408px;
+
+  /* Label Color/Light/Secondary */
+
+  color: rgba(60, 60, 67, 0.6);
+}
+
+.elh-e {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.each-list-map-holder {
+  position: relative;
+
+  width: 100%;
+}
+
+.each-list-listing-holder::-webkit-scrollbar-track {
+  background: #f1f1f1; /* set the background color of the track */
+  border-radius: 10px;
+}
+
+/* Handle */
+.each-list-listing-holder::-webkit-scrollbar-thumb {
+  background: #888; /* set the background color of the handle */
+  border-radius: 10px; /* round the corners of the handle */
+}
+
+/* Handle on hover */
+.each-list-listing-holder::-webkit-scrollbar-thumb:hover {
+  background: #555; /* set the background color of the handle on hover */
+}
+
+.eachlist-map {
+  width: 100%;
+  height: 100%;
+}
+
+/*----------------EDIT---------------*/
+.elh-edit-button {
+  height: auto;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 12px 25%;
+  border: none;
+  background-color: #f43f5e;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  justify-self: center;
+  justify-content: space-around;
+}
+.elh-edit-button:hover {
+  background-color: #f58b9c;
+}
+
+.buttonholder-edit {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  justify-content: space-around;
+  height: 75%;
+}
+.edit-location-button {
+  height: auto;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  background-color: #f43f5e;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  justify-self: center;
+  justify-content: space-around;
+}
+.edit-location-button:hover {
+  background-color: #f58b9c;
+}
+
+
+.elh-r2-form {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.0)
+}
+
+.elh-r2-input {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  color: #18181b;
+  display: block;
+  width: 90%;
+  background-color: white;
+
+  font-size: 3vw;
+  line-height: 70%;
+}
+
+.elh-r3-form {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.elh-r3-textarea {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  color: #18181b;
+  display: block;
+  width: 900%;
+  background-color: white;
+
+  font-size: 1.15vw;
+  resize: none;
+  height: 2em;
+}
+
+/*----------------------------------DIVIDER----------------------------------*/
+
+/*Tommy's part */
+.list-filter-contain {
+  /*This div changes the size of the container*/
+  height: 33vh;
+  width: 35vh;
+}
+/*
+.list-filter {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  flex-direction: column;
+
+}*/
+
+.list-filter-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.list-filter-backdrop{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+
+
+.list-filter{
+  position: relative;
+    width: fit-content;
+    height: fit-content;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* top bar */
+.filter-title {
+  position: relative;
+  display: inline-block;
+  left: 3%;
+  top: 1.6%;
+  font-size: 20px;
+  font-family: "Manrope";
+  padding-bottom: 10%;
+}
+
+.filter-back-button {
+  position: relative;
+  border: none;
+  color: white;
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1px;
+  margin: 1px;
+  cursor: pointer;
+  width: fit-content;
+  top: 2%;
+  left: 2%;
+  border-radius: 5px;
+}
+
+.filter-back-button:hover {
+  background-color: grey;
+}
+/*******  ********  ********/
+
+/******* MINI HEADER ********/
+.filter-mini-header {
+  position: relative;
+  bottom: 7.1%;
+  left: 3%;
+  font-size: 15px;
+  font-family: "Manrope";
+}
+/*******  ********  ********/
+
+/******* RATING ********/
+.filter-button-row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  bottom: 7%;
+}
+
+.filter-button-row button {
+  border: 1px solid black;
+  background-color: white;
+
+  border-radius: 10px;
+  color: black;
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.filter-button-row button:hover {
+  background-color: grey;
+}
+
+.filter-button-row button.selected {
+  background-color: black;
+  color: white;
+}
+/*******  ********  ********/
+
+/******* PRICE RANGE ********/
+.filter-price-button-row {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.filter-price-button-row button {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+}
+
+.filter-price-button-row button:hover {
+  background-color: grey;
+}
+
+.filter-price-button-row button.selected {
+  background-color: black;
+  color: white;
+}
+/*******  ********  ********/
+
+/******* RATING ********/
+
+.slider-bar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-bar input[type="range"] {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 10px;
+  background: white;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.slider-bar input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.slider-value {
+  position: relative;
+  left: 80%;
+  bottom: 11%;
+  font-size: 17px;
+  font-weight: bold;
+
+  color: black;
+}
+
+/*******  ********  ********/
+
+/******** CHECKBOX OPEN NOW ******** */
+
+.checkbox-input {
+  appearance: none;
+  border: 2px solid black;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+
+  position: relative;
+  left: 5px;
+  margin-right: 10px;
+}
+
+.checkbox-input:checked::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox-input:hover {
+  cursor: pointer;
+}
+
+.checkbox-input:focus {
+  outline: none;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.checkbox-label {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: black;
+  bottom:5px;
+  margin-bottom: 50px;
+}
+
+/*******  ********  ********/
+
+/******** BOTTOM BUTTONS ******** */
+
+.filter-bottom-buttons {
+  position: relative;
+  bottom: 20%;
+}
+.primary-button {
+  position: relative;
+  left: 10%;
+  background-color: rgb(181, 181, 181);
+  border: 2px solid black;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.primary-button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.secondary-button {
+  position: relative;
+  left: 12%;
+  width: 45%;
+  background-color: #f43f5e;
+  border: 2px solid black;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.secondary-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.secondary-button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*Add more classes below as seen fit*/
+
+/*----------------------------------DIVIDER----------------------------------*/
+
+.list-listing-contain {
+  height: 20vh;
+  min-height: 155px;
+  width: 100%;
+  padding: 5px;
+}
+
+.list-listing {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+}
+
+.thumbnail-holder{
+  height: 20vh;
+  min-width:35%;
+  max-width:35%;
+
+}
+
+.list-listing .thumbnail {
+  object-fit: cover;
+  align-self: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.list-listing .info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.list-listing .info-edit{
+  max-width: 90%;
+  min-width: 90%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  right: 10%;
+  
+}
+
+.list-listing .restaurantname {
+  font-size: 1.75em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-listing .restaurantname-edit {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.65em;
+  max-width: 70%;
+}
+
+.list-listing .type {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.list-listing .description {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  color: #52525b;
+}
+
+.list-listing .rating {
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  color: #52525b;
+}
+
+.list-listing .stars .gold-star {
+  width: 30.33px;
+  height: 28.99px;
+  /* yellow/300 */
+}
+
+.list-listing .categories {
+  margin-top: 10px;
+}
+
+.list-listing .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  gap: 5vh;
+  color: white;
+  background: #18181b;
+  border-color: rgb(201, 201, 201);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  .list-listing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list-listing .thumbnail-holder{
+    height: auto;
+    min-width:90%;
+    max-width:90%;
+    width: 100%;
+  }
+
+  .list-listing .thumbnail {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .list-listing .button {
+    display: none;
+  }
+  
+
+  
+}
+/*----------------------------------DIVIDER----------------------------------*/
+.list-share-contain {
+  /*This div changes the size of the container*/
+  height: 38vh;
+  width: 35%;
+}
+.list-share {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(201, 201, 201);
+}
+
+.starss {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.gold-starr {
+  color: gold;
+  display: inline-block;
+  width: 20px; /* Adjust this value as needed */
+  overflow: hidden;
+}

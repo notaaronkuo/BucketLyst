@@ -1,0 +1,176 @@
+/*MEMBERSHIP PAGE*/
+
+/*Membership spacer*/
+.membership-area1 {
+    display: flex;
+    padding: 18px 18px;
+    height: 90vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.membership-area {
+    margin: auto;
+    color: #fff;
+    margin-bottom: 29px;
+    margin-top: 29px;
+    max-width: 705px;
+    border-radius: 12px;
+    padding: 24px 31px;
+    background: hsl(210, 22%, 49%);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    width: 95%;
+}
+
+    .membership-area .membership-title {
+        font-size: 28px;
+        font-weight: 500;
+        position: relative;
+    }
+.membershipValidation {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 45%;
+}
+
+    .membershipValidation label {
+        transition: .4s ease-out;
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    .membershipValidation input {
+        border: 2px solid #f0f0f0;
+        border-radius: 5px;
+        font-family: inherit;
+        font-size: 15px;
+        padding: 10px;
+        width: 90%;
+    }
+
+        .membershipValidation input:focus {
+            outline: 0;
+            border-radius: 4px;
+            border: 3px solid rgb(47, 95, 14);
+        }
+
+    .membershipValidation.success input {
+        border-color: #2bdd77;
+    }
+
+    .membershipValidation.error input {
+        border-color: #ef4331;
+    }
+
+    .membershipValidation small {
+        color: #ef4331;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+    }
+
+    .membershipValidation.error small {
+        visibility: visible;
+    }
+
+/*Membership Details fill-ins+text*/
+.membership-content form .membership-Fill-Ins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 22px 0 14px 0;
+}
+
+form .membership-Fill-Ins .membership-input {
+    width: calc(100% / 2 - 30px);
+    margin-bottom: 13px;
+}
+
+form .membership-input span.membership-details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.membership-Fill-Ins .membership-input input {
+    height: 47px;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    border-bottom-width: 3px;
+    transition: 0.3s ease;
+}
+
+    .membership-Fill-Ins .membership-input input:valid,
+    .membership-Fill-Ins .membership-input input:focus {
+        border-color: #E0EDC2;
+    }
+
+/*Membership Email*/
+form .email-deals .deals-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*Membership Radio Dots*/
+form input[type="radio"] {
+    display: none;
+}
+
+form .dots {
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+    margin: 15px 0;
+}
+
+    form .dots label {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+        form .dots label .dot {
+            height: 17px;
+            margin-right: 11px;
+            transition: all 0.4s ease;
+            border-radius: 52%;
+            width: 17px;
+            background: #d9d9d9;
+            border: 6px solid transparent;
+        }
+
+#dot1:checked ~ .dots label .one,
+#dot2:checked ~ .dots label .two {
+    background: #5f7a1b;
+    border-color: #d9d9d9;
+}
+/*MEMBERSHIP PAGE END*/
+
+/*--------------------------PAGE--DIVIDER--------------------------*/
+
+/*MAIN BUTTON shared between pages START*/
+
+ .member-form button {
+    padding: 10px 20px;
+    background-color: rgb(17, 26, 71);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .member-form button:hover {
+    background-color: rgb(47, 57, 111);
+  }
+
+
+/*MAIN BUTTON END*/
+
+/*--------------------------PAGE--DIVIDER--------------------------*/

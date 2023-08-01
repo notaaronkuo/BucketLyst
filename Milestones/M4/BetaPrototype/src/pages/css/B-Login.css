@@ -1,0 +1,221 @@
+/*Tommy task, style business pages*/
+/********************** TOP OF PAGE***********************/
+
+.business-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+  background-color: #f2f2f2;
+  margin-top: 10px;
+}
+
+.business-header img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.business-header h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+/**********************
+***********************/
+
+.business-page {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.business-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+/* Business Title */
+.business-login h1 {
+  margin-bottom: 20px;
+  font-family: "Plus Jakarta Sans";
+}
+/**********************
+***********************/
+/* Business Form */
+.business-login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.business-username {
+  position: relative;
+  right: 37%;
+  font-family: "Plus Jakarta Sans";
+}
+
+.business-password {
+  position: relative;
+  right: 37%;
+  font-family: "Plus Jakarta Sans";
+}
+
+.username-title,
+.password-title {
+  color: #646e5e;
+
+  position: relative;
+  right: 37%;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans";
+}
+
+.business-login input[type="text"],
+.business-login input[type="password"] {
+  color: #646e5e;
+  padding: 15px;
+  font-family: "Plus Jakarta Sans";
+  font-size: large;
+}
+
+.business-login label {
+  position: relative;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+}
+
+.business-login input {
+  background-color: #f5f6f4;
+  width: 330px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+/**********************
+***********************/
+/* */
+.business-login button {
+  font-size: 18px;
+  padding: 10px 163px;
+  border: none;
+  font-weight: 18;
+  border-radius: 5px;
+  background-color: #f43f5e;
+  font-family: "Plus Jakarta Sans";
+  color: white;
+  cursor: pointer;
+}
+
+.business-forgot-password {
+  position: relative;
+  right: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.business-forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.business-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.business-signup a {
+  color: #f43f5e;
+  position: relative;
+  left: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.business-login label {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.business-login input[type="text"],
+.business-login input[type="email2"],
+.business-login input[type="password"] {
+  width: 384px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/********************** CHECKBOX ***********************/
+
+.business-login input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+  left: 10%;
+  bottom: 6.2%;
+}
+
+.business-login input[type="checkbox"]:checked::before {
+  position: relative;
+  top: 50%;
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23007bff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+}
+
+.checkbox-policy {
+  position: relative;
+  right: 22%;
+  font-family: "Plus Jakarta Sans";
+}
+.business-image {
+  width: 50%;
+  background-image: url("https://example.com/image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.b-back-button {
+  position: relative;
+  border: none;
+  color: white;
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1px;
+  margin: 1px;
+  cursor: pointer;
+  width: fit-content;
+  border-radius: 5px;
+}
+.b-back-button:hover {
+  background-color: rgb(199, 199, 199);
+}

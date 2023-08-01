@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/makelist": {
+      "name": "/makelist",
+      "lambdaFunction": "makelist",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

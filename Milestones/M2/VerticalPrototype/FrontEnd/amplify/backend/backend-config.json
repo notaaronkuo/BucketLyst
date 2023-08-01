@@ -1,0 +1,113 @@
+{
+  "api": {
+    "api7e5457cb": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "searchQuery"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "locationList": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "searchLocationList"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "userAPI": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "createUserFunction"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "createUserFunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "searchLocationList": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "searchQuery": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_createUserFunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createUserFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_createUserFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createUserFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_searchLocationList_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "searchLocationList"
+        }
+      ]
+    },
+    "AMPLIFY_function_searchLocationList_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "searchLocationList"
+        }
+      ]
+    },
+    "AMPLIFY_function_searchQuery_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "searchQuery"
+        }
+      ]
+    },
+    "AMPLIFY_function_searchQuery_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "searchQuery"
+        }
+      ]
+    }
+  }
+}

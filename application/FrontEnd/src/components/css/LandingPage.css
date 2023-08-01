@@ -1,0 +1,482 @@
+.row {
+  position: relative;
+  width: 90%;
+  left: 4vw;
+  top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 100px 10px;
+}
+
+.hook-container {
+  position: relative;
+}
+
+.landing-hook {
+  /* Your ultimate tool for saving and sharing your favorite locations */
+
+  position: relative;
+  width: 75%;
+  text-align: center;
+
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+
+  /* or 92% */
+
+  /* gray/900 */
+  color: #18181b;
+}
+
+.hook-description {
+  /* Stay organized, never forget your favorite spots by creating your own personalized map of memories with BucketLyst. */
+
+  position: relative;
+  width: 75%;
+  text-align: center;
+
+  font-family: "Inter";
+  font-style: normal;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+.hook-image {
+  /* Image */
+  position: relative;
+  width: 100%;
+}
+
+.start-button {
+  /* Button name */
+  position: relative;
+  left: 23%;
+
+  width: 30%;
+  height: 30px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  align-items: center;
+  text-align: center;
+
+  /* base/white */
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  background-color: #18181b;
+  border-radius: 5px;
+}
+
+/* second block */
+.hook-container-2 {
+  /* Keep track of places you’ve been or ones you want to go */
+
+  position: relative;
+  width: 640px;
+  height: 198px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  /* or 138% */
+
+  color: #000000;
+}
+
+.small-text-above-2 {
+  /* Everything in one convenient place */
+
+  position: relative;
+  width: 100%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: left;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+.second-large-text {
+  /* Keep track of places you’ve been or ones you want to go */
+
+  position: relative;
+  width: 100%;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  /* or 138% */
+
+  color: #000000;
+  text-align: left;
+}
+
+.hook-image-2 {
+  /* Image */
+  /* Screenshot 2023-05-01 at 14.08 1 */
+
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.small-text-below-2 {
+  /* You can easily pin your favorite spots on your personal map and create custom lists, so you'll never forget the restaurant you discovered or the new park you visited. Whether you're tracking the places you've been, the ones you want to go, or the ones your loved ones recommended, Bucketlys has got you covered! */
+
+  position: relative;
+  width: 100%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+/* third block */
+.hook-container-3 {
+  position: relative;
+}
+
+.third-large-text {
+  /* Add to your list, search and filter. Stay organized */
+
+  position: relative;
+
+  width: 120%;
+
+  left: -10%;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  /* or 138% */
+
+  color: #000000;
+}
+
+.small-text-above-3 {
+  /* No more scrumbling around */
+
+  position: relative;
+
+  width: 70%;
+
+  left: -10%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: left;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+.hook-image-3 {
+  position: relative;
+
+  width: 100%;
+}
+
+.small-text-below-3 {
+  position: relative;
+  /* Stuck on where to go? No worries! Bucketlys has you covered with its built-in filter and search function. Quickly sort through your favorite places to find the perfect spot for your mood, whether you're looking for a cozy coffee shop or a lively bar. With categories like "food," "entertainment," and "outdoor activities," and filters like "open now" and "places near you," Bucketlys makes it easy to discover new places and revisit your old favorites. With Bucketlys, your perfect spot is just a few clicks away! */
+
+  width: 100%;
+
+  left: -10%;
+  text-align: left;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+/* fourth block */
+.hook-container-4 {
+  position: relative;
+}
+
+.fourth-large-text {
+  /* Add to your list, search and filter. Stay organized */
+
+  position: relative;
+
+  width: 100%;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  /* or 138% */
+
+  color: #000000;
+}
+
+.small-text-above-4 {
+  /* No more scrumbling around */
+
+  position: relative;
+
+  width: 100%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+}
+
+.hook-image-4 {
+  position: relative;
+
+  max-width: 110%;
+  left: -10%;
+}
+
+.small-text-below-4 {
+  position: relative;
+  /* Stuck on where to go? No worries! Bucketlys has you covered with its built-in filter and search function. Quickly sort through your favorite places to find the perfect spot for your mood, whether you're looking for a cozy coffee shop or a lively bar. With categories like "food," "entertainment," and "outdoor activities," and filters like "open now" and "places near you," Bucketlys makes it easy to discover new places and revisit your old favorites. With Bucketlys, your perfect spot is just a few clicks away! */
+
+  width: 100%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+
+  /* gray/600 */
+  color: #52525b;
+  padding-bottom: 300px;
+}
+
+.col-md-6 {
+  width: 40%;
+  align-items: center;
+  justify-self: center;
+  margin: auto;
+}
+
+/*************************** SHARE ****************************/
+/**************************************************************/
+
+.share-page {
+  position: relative;
+}
+
+.share-card {
+  position: relative;
+  width: 657px;
+  height: 490px;
+  top: 40px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.share-share {
+  display: flex;
+  position: relative;
+  font-size: 40px;
+  bottom: 160px;
+  right: 110px;
+}
+
+.share-image {
+  position: relative;
+  width: 154px;
+  height: 119px;
+  margin-right: 10px;
+  right: 220px;
+  bottom: 60px;
+}
+.share-number-places {
+  position: relative;
+  right: 200px;
+  bottom: 50px;
+  font-size: 24px;
+  color: grey;
+}
+
+.share-info {
+  display: flex;
+  align-items: center;
+}
+.share-private-public {
+  position: relative;
+  color: grey;
+  right: 80px;
+  font-size: 24px;
+  bottom: 33px;
+}
+
+.share-toggle-switch {
+  position: relative;
+  bottom: 50px;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.share-toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.share-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+
+.share-slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.share-toggle-switch input:checked + .share-slider {
+  background-color: #2196f3;
+}
+
+.share-toggle-switch input:checked + .share-slider:before {
+  transform: translateX(20px);
+}
+
+.share-divider {
+  position: relative;
+  bottom: 40px;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+.share-pictures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.share-picture {
+  padding-right: 40px;
+
+  text-align: center;
+}
+
+.share-picture img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.share-picture p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .landing-hook {
+    font-size: 20px;
+  }
+  .hook-description,
+  .second-large-text,
+  .third-large-text,
+  .fourth-large-text {
+    font-size: 10px;
+    line-height: normal;
+    width: 50%;
+  }
+  .hook-image,
+  .hook-image-2,
+  .hook-image-3,
+  .hook-image-4 {
+    position: relative;
+    bottom: 20vh;
+  }
+  .small-text-above-2,
+  .small-text-above-3,
+  .small-text-above-4,
+  .small-text-below-2,
+  .small-text-below-3,
+  .small-text-below-4 {
+    line-height: normal;
+    width: auto;
+    font-size: 9px;
+    height: 40%;
+  }
+  .start-button {
+    width: 50%;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/search/{SearchTerm}/{SearchQuery}": {
+      "name": "/search/{SearchTerm}/{SearchQuery}",
+      "lambdaFunction": "search",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
